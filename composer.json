@@ -1,0 +1,32 @@
+{
+    "name": "sergio/bdd-by-example",
+    "description": "Código de la charla del Betabeers Córdoba 23",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergio Gómez",
+            "email": "sergio@uco.es"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "behat/behat": "^3.0",
+        "phpspec/phpspec": "^2.4",
+        "henrikbjorn/phpspec-code-coverage": "^2.0",
+        "phpunit/phpunit": "^5.2"
+    }
+}
